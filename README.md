@@ -10,5 +10,5 @@ Sistema de Gerenciamento de Pessoas
 # Tecnologias
 ASP.NET CORE / SQL SERVER / VUE.JS
 
-#Descrição do Projeto
+# Descrição do Projeto
 Este é um projeto de gerenciamento de pessoas desenvolvido para facilitar o Gerencimaneto de Pessoas. Com uma interface intuitiva e funcionalidades abrangentes.
