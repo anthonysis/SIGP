@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\migrations\\20240619004432_firstmigration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:migrations\\20240619004432_firstmigration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\migrations\\20240619004432_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:migrations\\20240619004432_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\service\\funcionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:service\\funcionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\dotnet||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:dotnet||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\service\\funcionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:service\\funcionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\service\\ifuncionariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:service\\ifuncionariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\migrations\\20240619004432_firstmigration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:migrations\\20240619004432_firstmigration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\migrations\\20240619004432_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:migrations\\20240619004432_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\sigp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:sigp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\service\\ifuncionariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:service\\ifuncionariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\models\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,24 +82,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAABUAAAAAAAAAAAAQwCMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-19T03:04:32.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dotnet",
+              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\dotnet",
+              "RelativeDocumentMoniker": "dotnet",
+              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\dotnet",
+              "RelativeToolTip": "dotnet",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-19T03:04:21.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "20240619004432_FirstMigration.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Migrations\\20240619004432_FirstMigration.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20240619004432_FirstMigration.Designer.cs",
               "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Migrations\\20240619004432_FirstMigration.Designer.cs",
               "RelativeToolTip": "Migrations\\20240619004432_FirstMigration.Designer.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAcwAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T01:03:12.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -104,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "20240619004432_FirstMigration.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Migrations\\20240619004432_FirstMigration.cs",
               "RelativeDocumentMoniker": "Migrations\\20240619004432_FirstMigration.cs",
@@ -125,23 +159,25 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-19T00:46:18.511Z"
+              "WhenOpened": "2024-06-19T00:46:18.511Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:19:08.474Z"
+              "WhenOpened": "2024-06-19T00:19:08.474Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\DataContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DataContext\\ApplicationDbContext.cs",
@@ -149,11 +185,12 @@
               "RelativeToolTip": "DataContext\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:06:01.506Z"
+              "WhenOpened": "2024-06-19T00:06:01.506Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "FuncionarioController.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Controllers\\FuncionarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\FuncionarioController.cs",
@@ -161,11 +198,12 @@
               "RelativeToolTip": "Controllers\\FuncionarioController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:55:10.353Z"
+              "WhenOpened": "2024-06-18T23:55:10.353Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ServiceResponse.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Models\\ServiceResponse.cs",
               "RelativeDocumentMoniker": "Models\\ServiceResponse.cs",
@@ -173,11 +211,12 @@
               "RelativeToolTip": "Models\\ServiceResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:51:43.393Z"
+              "WhenOpened": "2024-06-18T23:51:43.393Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "IFuncionarioInterface.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Service\\IFuncionarioInterface.cs",
               "RelativeDocumentMoniker": "Service\\IFuncionarioInterface.cs",
@@ -185,23 +224,25 @@
               "RelativeToolTip": "Service\\IFuncionarioInterface.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:48:44.158Z"
+              "WhenOpened": "2024-06-18T23:48:44.158Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "FuncionarioService.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Service\\FuncionarioService.cs",
               "RelativeDocumentMoniker": "Service\\FuncionarioService.cs",
               "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Service\\FuncionarioService.cs",
               "RelativeToolTip": "Service\\FuncionarioService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwDYAAAAvAAAA",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAowL0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:46:57.469Z"
+              "WhenOpened": "2024-06-18T23:46:57.469Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "TurnoEnum.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Enums\\TurnoEnum.cs",
               "RelativeDocumentMoniker": "Enums\\TurnoEnum.cs",
@@ -209,11 +250,12 @@
               "RelativeToolTip": "Enums\\TurnoEnum.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:44:16.265Z"
+              "WhenOpened": "2024-06-18T23:44:16.265Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "DepartamentoEnum.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Enums\\DepartamentoEnum.cs",
               "RelativeDocumentMoniker": "Enums\\DepartamentoEnum.cs",
@@ -221,11 +263,12 @@
               "RelativeToolTip": "Enums\\DepartamentoEnum.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:42:37.96Z"
+              "WhenOpened": "2024-06-18T23:42:37.96Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "SIGP.csproj",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\SIGP.csproj",
               "RelativeDocumentMoniker": "SIGP.csproj",
@@ -233,11 +276,12 @@
               "RelativeToolTip": "SIGP.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-18T23:38:10.362Z"
+              "WhenOpened": "2024-06-18T23:38:10.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "FuncionarioModel.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Models\\FuncionarioModel.cs",
               "RelativeDocumentMoniker": "Models\\FuncionarioModel.cs",
@@ -245,11 +289,12 @@
               "RelativeToolTip": "Models\\FuncionarioModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:37:00.324Z"
+              "WhenOpened": "2024-06-18T23:37:00.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "PessoaController.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Controllers\\PessoaController.cs",
               "RelativeDocumentMoniker": "Controllers\\PessoaController.cs",
@@ -257,11 +302,12 @@
               "RelativeToolTip": "Controllers\\PessoaController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:34:45.359Z"
+              "WhenOpened": "2024-06-18T23:34:45.359Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Pessoa.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Models\\Pessoa.cs",
               "RelativeDocumentMoniker": "Models\\Pessoa.cs",
@@ -269,7 +315,8 @@
               "RelativeToolTip": "Models\\Pessoa.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:33:10.707Z"
+              "WhenOpened": "2024-06-18T23:33:10.707Z",
+              "EditorCaption": ""
             }
           ]
         }

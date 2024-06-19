@@ -20,12 +20,22 @@ IServiceCollection serviceCollection = builder.Services.AddDbContext<Application
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("FuncionariosApp", builder =>
+//    {
+//        builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+//    });
+//});
+
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("Sigp", builder =>
-    {
-        builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
-    });
+    options.AddPolicy("AllowSpecificOrigin",
+        builder => builder
+            .WithOrigins("http://localhost:8080") // Adicione aqui o endereço do seu frontend
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .AllowCredentials());
 });
 
 var app = builder.Build();
@@ -36,6 +46,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Use CORS policy
+app.UseCors("AllowSpecificOrigin");
 
 app.UseHttpsRedirection();
 
