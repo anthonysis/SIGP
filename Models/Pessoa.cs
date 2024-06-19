@@ -1,4 +1,6 @@
-﻿namespace EventosAPI.Entities
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace EventosAPI.Entities
 {
     public class Pessoa
     {

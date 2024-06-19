@@ -1,14 +1,32 @@
 using EventosAPI.Persistence;
+using Microsoft.EntityFrameworkCore;
+using SIGP.DataContext;
+using SIGP.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddSingleton<PessoasDbContext>();
+//builder.Services.AddSingleton<PessoasDbContext>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IFuncionarioInterface, FuncionarioService>();
+
+IServiceCollection serviceCollection = builder.Services.AddDbContext<ApplicationDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Sigp", builder =>
+    {
+        builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
