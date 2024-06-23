@@ -13,6 +13,8 @@ namespace SIGP.DataContext
 
 
         public DbSet<FuncionarioModel> Funcionarios { get; set; }
+
+        public DbSet<EnderecoModel> Enderecos { get; set; }
     }
 }
 
