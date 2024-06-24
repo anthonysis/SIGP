@@ -12,3 +12,6 @@ ASP.NET CORE / SQL SERVER / VUE.JS
 
 # Descrição do Projeto
 Este é um projeto de gerenciamento de pessoas desenvolvido para facilitar o cadastro de informaçõs pessoais. Com uma interface intuitiva e funcionalidades abrangentes.
+
+# REPOSITÓRIO FRONT END
+https://github.com/rpdeb/SIGP-TOPICOS
