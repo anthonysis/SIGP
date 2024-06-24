@@ -83,7 +83,10 @@ namespace SIGP.Service
 
             try
             {
-                PessoaModel pessoa = _context.Pessoa.FirstOrDefault(x => x.Id == id);
+                PessoaModel pessoa = await _context.Pessoa
+                    .Include(p => p.Endereco)
+                    .Include(p => p.Telefone)
+                    .FirstOrDefaultAsync(x => x.Id == id);
 
                 if (pessoa == null)
                 {
@@ -91,13 +94,14 @@ namespace SIGP.Service
                     serviceResponse.Mensagem = "Pessoa não localizada!";
                     serviceResponse.Sucesso = false;
                 }
-
-                serviceResponse.Dados = pessoa;
-
+                else
+                {
+                    serviceResponse.Dados = pessoa;
+                    serviceResponse.Sucesso = true;
+                }
             }
             catch (Exception ex)
             {
-
                 serviceResponse.Mensagem = ex.Message;
                 serviceResponse.Sucesso = false;
             }
@@ -111,25 +115,29 @@ namespace SIGP.Service
 
             try
             {
-
-                serviceResponse.Dados = _context.Pessoa.ToList();
+                serviceResponse.Dados = await _context.Pessoa
+                    .Include(p => p.Endereco)
+                    .Include(p => p.Telefone)
+                    .ToListAsync();
 
                 if (serviceResponse.Dados.Count == 0)
                 {
                     serviceResponse.Mensagem = "Nenhum dado encontrado!";
                 }
-
-
+                else
+                {
+                    serviceResponse.Sucesso = true;
+                }
             }
             catch (Exception ex)
             {
-
                 serviceResponse.Mensagem = ex.Message;
                 serviceResponse.Sucesso = false;
             }
 
             return serviceResponse;
         }
+
 
         public async Task<ServiceResponse<List<PessoaModel>>> UpdatePessoa(PessoaModel editadoPessoa)
         {

@@ -33,8 +33,12 @@ namespace SIGP.Service
                 _context.Add(novoFuncionario);
                 await _context.SaveChangesAsync();
 
-                serviceResponse.Dados = _context.Funcionario.ToList();
-
+                serviceResponse.Dados = await _context.Funcionario
+                    .Include(f => f.Pessoa)
+                        .ThenInclude(p => p.Endereco)
+                    .Include(f => f.Pessoa)
+                        .ThenInclude(p => p.Telefone)
+                    .ToListAsync();
 
             }
             catch (Exception ex)
@@ -52,7 +56,12 @@ namespace SIGP.Service
 
             try
             {
-                FuncionarioModel funcionario = _context.Funcionario.FirstOrDefault(x => x.Id == id);
+                FuncionarioModel funcionario = await _context.Funcionario
+                    .Include(f => f.Pessoa)
+                        .ThenInclude(p => p.Endereco)
+                    .Include(f => f.Pessoa)
+                        .ThenInclude(p => p.Telefone)
+                    .FirstOrDefaultAsync(x => x.Id == id);
 
                 if (funcionario == null)
                 {
@@ -63,12 +72,15 @@ namespace SIGP.Service
                     return serviceResponse;
                 }
 
-
                 _context.Funcionario.Remove(funcionario);
                 await _context.SaveChangesAsync();
 
-
-                serviceResponse.Dados = _context.Funcionario.ToList();
+                serviceResponse.Dados = await _context.Funcionario
+                    .Include(f => f.Pessoa)
+                        .ThenInclude(p => p.Endereco)
+                    .Include(f => f.Pessoa)
+                        .ThenInclude(p => p.Telefone)
+                    .ToListAsync();
 
             }
             catch (Exception ex)
@@ -86,7 +98,12 @@ namespace SIGP.Service
 
             try
             {
-                FuncionarioModel funcionario = _context.Funcionario.FirstOrDefault(x => x.Id == id);
+                FuncionarioModel funcionario = await _context.Funcionario
+                    .Include(f => f.Pessoa)
+                        .ThenInclude(p => p.Endereco)
+                    .Include(f => f.Pessoa)
+                        .ThenInclude(p => p.Telefone)
+                    .FirstOrDefaultAsync(x => x.Id == id);
 
                 if (funcionario == null)
                 {
@@ -94,13 +111,14 @@ namespace SIGP.Service
                     serviceResponse.Mensagem = "Funcionário não localizado!";
                     serviceResponse.Sucesso = false;
                 }
-
-                serviceResponse.Dados = funcionario;
-
+                else
+                {
+                    serviceResponse.Dados = funcionario;
+                    serviceResponse.Sucesso = true;
+                }
             }
             catch (Exception ex)
             {
-
                 serviceResponse.Mensagem = ex.Message;
                 serviceResponse.Sucesso = false;
             }
@@ -114,25 +132,29 @@ namespace SIGP.Service
 
             try
             {
-
-                serviceResponse.Dados = _context.Funcionario.ToList();
+                serviceResponse.Dados = await _context.Funcionario
+                    .Include(f => f.Pessoa)
+                        .ThenInclude(p => p.Endereco)
+                    .Include(f => f.Pessoa)
+                        .ThenInclude(p => p.Telefone)
+                    .ToListAsync();
 
                 if (serviceResponse.Dados.Count == 0)
                 {
                     serviceResponse.Mensagem = "Nenhum dado encontrado!";
                 }
-
-
+                else
+                {
+                    serviceResponse.Sucesso = true;
+                }
             }
             catch (Exception ex)
             {
-
                 serviceResponse.Mensagem = ex.Message;
                 serviceResponse.Sucesso = false;
             }
 
             return serviceResponse;
-
         }
 
         public async Task<ServiceResponse<List<FuncionarioModel>>> InativaFuncionario(int id)
@@ -141,7 +163,12 @@ namespace SIGP.Service
 
             try
             {
-                FuncionarioModel funcionario = _context.Funcionario.FirstOrDefault(x => x.Id == id);
+                FuncionarioModel funcionario = await _context.Funcionario
+                    .Include(f => f.Pessoa)
+                        .ThenInclude(p => p.Endereco)
+                    .Include(f => f.Pessoa)
+                        .ThenInclude(p => p.Telefone)
+                    .FirstOrDefaultAsync(x => x.Id == id);
 
                 if (funcionario == null)
                 {
@@ -149,16 +176,21 @@ namespace SIGP.Service
                     serviceResponse.Mensagem = "Usuário não localizado!";
                     serviceResponse.Sucesso = false;
                 }
+                else
+                {
+                    funcionario.Ativo = false;
+                    funcionario.DataDeAlteracao = DateTime.Now.ToLocalTime();
 
-                funcionario.Ativo = false;
-                funcionario.DataDeAlteracao = DateTime.Now.ToLocalTime();
+                    _context.Funcionario.Update(funcionario);
+                    await _context.SaveChangesAsync();
 
-                _context.Funcionario.Update(funcionario);
-                await _context.SaveChangesAsync();
-
-                serviceResponse.Dados = _context.Funcionario.ToList();
-
-
+                    serviceResponse.Dados = await _context.Funcionario
+                        .Include(f => f.Pessoa)
+                            .ThenInclude(p => p.Endereco)
+                        .Include(f => f.Pessoa)
+                            .ThenInclude(p => p.Telefone)
+                        .ToListAsync();
+                }
             }
             catch (Exception ex)
             {
@@ -175,7 +207,13 @@ namespace SIGP.Service
 
             try
             {
-                FuncionarioModel funcionario = _context.Funcionario.AsNoTracking().FirstOrDefault(x => x.Id == editadoFuncionario.Id);
+                FuncionarioModel funcionario = await _context.Funcionario
+                    .Include(f => f.Pessoa)
+                        .ThenInclude(p => p.Endereco)
+                    .Include(f => f.Pessoa)
+                        .ThenInclude(p => p.Telefone)
+                    .AsNoTracking()
+                    .FirstOrDefaultAsync(x => x.Id == editadoFuncionario.Id);
 
                 if (funcionario == null)
                 {
@@ -183,15 +221,20 @@ namespace SIGP.Service
                     serviceResponse.Mensagem = "Usuário não localizado!";
                     serviceResponse.Sucesso = false;
                 }
+                else
+                {
+                    editadoFuncionario.DataDeAlteracao = DateTime.Now.ToLocalTime();
 
+                    _context.Funcionario.Update(editadoFuncionario);
+                    await _context.SaveChangesAsync();
 
-                funcionario.DataDeAlteracao = DateTime.Now.ToLocalTime();
-
-                _context.Funcionario.Update(editadoFuncionario);
-                await _context.SaveChangesAsync();
-
-                serviceResponse.Dados = _context.Funcionario.ToList();
-
+                    serviceResponse.Dados = await _context.Funcionario
+                        .Include(f => f.Pessoa)
+                            .ThenInclude(p => p.Endereco)
+                        .Include(f => f.Pessoa)
+                            .ThenInclude(p => p.Telefone)
+                        .ToListAsync();
+                }
             }
             catch (Exception ex)
             {
@@ -201,5 +244,6 @@ namespace SIGP.Service
 
             return serviceResponse;
         }
+
     }
 }
