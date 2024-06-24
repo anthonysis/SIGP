@@ -3,64 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\service\\funcionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:service\\funcionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\models\\pessoamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:models\\pessoamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\models\\funcionariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:models\\funcionariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\service\\funcionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:service\\funcionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\migrations\\20240623171327_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:migrations\\20240623171327_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\service\\enderecoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:service\\enderecoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\models\\enderecomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:models\\enderecomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\service\\ienderecointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:service\\ienderecointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\service\\ifuncionariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:service\\ifuncionariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\enums\\turnoenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:enums\\turnoenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\dotnet||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:dotnet||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\sigp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:sigp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|c:\\users\\debs\\documents\\github\\sigp\\migrations\\20240624023757_pessoaemfuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555F967F-366D-48B5-9007-434BE1BD9BBE}|SIGP.csproj|solutionrelative:migrations\\20240624023757_pessoaemfuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,242 +42,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EnderecoController.cs",
-              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Controllers\\EnderecoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EnderecoController.cs",
-              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Controllers\\EnderecoController.cs",
-              "RelativeToolTip": "Controllers\\EnderecoController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAIAzwBYAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "PessoaModel.cs",
+              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Models\\PessoaModel.cs",
+              "RelativeDocumentMoniker": "Models\\PessoaModel.cs",
+              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Models\\PessoaModel.cs",
+              "RelativeToolTip": "Models\\PessoaModel.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAswAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T17:16:16.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T05:35:19.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20240623171327_secondMigration.cs",
-              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Migrations\\20240623171327_secondMigration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240623171327_secondMigration.cs",
-              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Migrations\\20240623171327_secondMigration.cs",
-              "RelativeToolTip": "Migrations\\20240623171327_secondMigration.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T17:13:32.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:54:50.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-23T16:54:46.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\DataContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DataContext\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\DataContext\\ApplicationDbContext.cs",
               "RelativeToolTip": "DataContext\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwCUAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:54:08.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T05:28:42.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IEnderecoInterface.cs",
-              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Service\\IEnderecoInterface.cs",
-              "RelativeDocumentMoniker": "Service\\IEnderecoInterface.cs",
-              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Service\\IEnderecoInterface.cs",
-              "RelativeToolTip": "Service\\IEnderecoInterface.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:43:44.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EnderecoService.cs",
-              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Service\\EnderecoService.cs",
-              "RelativeDocumentMoniker": "Service\\EnderecoService.cs",
-              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Service\\EnderecoService.cs",
-              "RelativeToolTip": "Service\\EnderecoService.cs",
-              "ViewState": "AQIAAJ0AAAAAAAAAAADwv6cAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:42:16.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TurnoEnum.cs",
-              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Enums\\TurnoEnum.cs",
-              "RelativeDocumentMoniker": "Enums\\TurnoEnum.cs",
-              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Enums\\TurnoEnum.cs",
-              "RelativeToolTip": "Enums\\TurnoEnum.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:46:23.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IFuncionarioInterface.cs",
-              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Service\\IFuncionarioInterface.cs",
-              "RelativeDocumentMoniker": "Service\\IFuncionarioInterface.cs",
-              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Service\\IFuncionarioInterface.cs",
-              "RelativeToolTip": "Service\\IFuncionarioInterface.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:42:25.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EnderecoModel.cs",
-              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Models\\EnderecoModel.cs",
-              "RelativeDocumentMoniker": "Models\\EnderecoModel.cs",
-              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Models\\EnderecoModel.cs",
-              "RelativeToolTip": "Models\\EnderecoModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:23:59.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "dotnet",
-              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\dotnet",
-              "RelativeDocumentMoniker": "dotnet",
-              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\dotnet",
-              "RelativeToolTip": "dotnet",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-19T03:04:21.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SIGP.csproj",
-              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\SIGP.csproj",
-              "RelativeDocumentMoniker": "SIGP.csproj",
-              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\SIGP.csproj",
-              "RelativeToolTip": "SIGP.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-18T23:38:10.362Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "9edb9553-cda9-480f-a09a-4a7257aa8c3c",
-        "Display": 0,
-        "X": -21,
-        "Y": 2,
-        "Width": 893,
-        "Height": 1011,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FuncionarioModel.cs",
-              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Models\\FuncionarioModel.cs",
-              "RelativeDocumentMoniker": "Models\\FuncionarioModel.cs",
-              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Models\\FuncionarioModel.cs",
-              "RelativeToolTip": "Models\\FuncionarioModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:37:47.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FuncionarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Controllers\\FuncionarioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FuncionarioController.cs",
-              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Controllers\\FuncionarioController.cs",
-              "RelativeToolTip": "Controllers\\FuncionarioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T17:15:33.886Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "29268982-664b-4a30-844c-5c576f79a437",
-        "Display": 0,
-        "X": -5,
-        "Y": 408,
-        "Width": 878,
-        "Height": 638,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "FuncionarioService.cs",
               "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Service\\FuncionarioService.cs",
               "RelativeDocumentMoniker": "Service\\FuncionarioService.cs",
               "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Service\\FuncionarioService.cs",
               "RelativeToolTip": "Service\\FuncionarioService.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAwwLUAAAAxAAAA",
+              "ViewState": "AQIAANAAAAAAAAAAAAAAwPgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:42:19.251Z",
+              "WhenOpened": "2024-06-24T05:27:16.743Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FuncionarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Controllers\\FuncionarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FuncionarioController.cs",
+              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Controllers\\FuncionarioController.cs",
+              "RelativeToolTip": "Controllers\\FuncionarioController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAIwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:27:01.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FuncionarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Models\\FuncionarioModel.cs",
+              "RelativeDocumentMoniker": "Models\\FuncionarioModel.cs",
+              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Models\\FuncionarioModel.cs",
+              "RelativeToolTip": "Models\\FuncionarioModel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA2wBsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T02:00:28.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnderecoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Models\\EnderecoModel.cs",
+              "RelativeDocumentMoniker": "Models\\EnderecoModel.cs",
+              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Models\\EnderecoModel.cs",
+              "RelativeToolTip": "Models\\EnderecoModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T16:23:59.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240624023757_pessoaEmFuncionario.cs",
+              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Migrations\\20240624023757_pessoaEmFuncionario.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240624023757_pessoaEmFuncionario.cs",
+              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Migrations\\20240624023757_pessoaEmFuncionario.cs",
+              "RelativeToolTip": "Migrations\\20240624023757_pessoaEmFuncionario.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T02:38:26.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PessoaController.cs",
+              "DocumentMoniker": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Controllers\\PessoaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PessoaController.cs",
+              "ToolTip": "C:\\Users\\Debs\\Documents\\GitHub\\SIGP\\Controllers\\PessoaController.cs",
+              "RelativeToolTip": "Controllers\\PessoaController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA4wDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T01:18:46.155Z"
             }
           ]
         }
