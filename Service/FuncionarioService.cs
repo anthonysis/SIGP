@@ -33,7 +33,7 @@ namespace SIGP.Service
                 _context.Add(novoFuncionario);
                 await _context.SaveChangesAsync();
 
-                serviceResponse.Dados = _context.Funcionarios.ToList();
+                serviceResponse.Dados = _context.Funcionario.ToList();
 
 
             }
@@ -52,23 +52,23 @@ namespace SIGP.Service
 
             try
             {
-                FuncionarioModel funcionario = _context.Funcionarios.FirstOrDefault(x => x.Id == id);
+                FuncionarioModel funcionario = _context.Funcionario.FirstOrDefault(x => x.Id == id);
 
                 if (funcionario == null)
                 {
                     serviceResponse.Dados = null;
-                    serviceResponse.Mensagem = "Usuário não localizado!";
+                    serviceResponse.Mensagem = "Funcionário não localizado!";
                     serviceResponse.Sucesso = false;
 
                     return serviceResponse;
                 }
 
 
-                _context.Funcionarios.Remove(funcionario);
+                _context.Funcionario.Remove(funcionario);
                 await _context.SaveChangesAsync();
 
 
-                serviceResponse.Dados = _context.Funcionarios.ToList();
+                serviceResponse.Dados = _context.Funcionario.ToList();
 
             }
             catch (Exception ex)
@@ -86,12 +86,12 @@ namespace SIGP.Service
 
             try
             {
-                FuncionarioModel funcionario = _context.Funcionarios.FirstOrDefault(x => x.Id == id);
+                FuncionarioModel funcionario = _context.Funcionario.FirstOrDefault(x => x.Id == id);
 
                 if (funcionario == null)
                 {
                     serviceResponse.Dados = null;
-                    serviceResponse.Mensagem = "Usuário não localizado!";
+                    serviceResponse.Mensagem = "Funcionário não localizado!";
                     serviceResponse.Sucesso = false;
                 }
 
@@ -115,7 +115,7 @@ namespace SIGP.Service
             try
             {
 
-                serviceResponse.Dados = _context.Funcionarios.ToList();
+                serviceResponse.Dados = _context.Funcionario.ToList();
 
                 if (serviceResponse.Dados.Count == 0)
                 {
@@ -141,7 +141,7 @@ namespace SIGP.Service
 
             try
             {
-                FuncionarioModel funcionario = _context.Funcionarios.FirstOrDefault(x => x.Id == id);
+                FuncionarioModel funcionario = _context.Funcionario.FirstOrDefault(x => x.Id == id);
 
                 if (funcionario == null)
                 {
@@ -153,10 +153,10 @@ namespace SIGP.Service
                 funcionario.Ativo = false;
                 funcionario.DataDeAlteracao = DateTime.Now.ToLocalTime();
 
-                _context.Funcionarios.Update(funcionario);
+                _context.Funcionario.Update(funcionario);
                 await _context.SaveChangesAsync();
 
-                serviceResponse.Dados = _context.Funcionarios.ToList();
+                serviceResponse.Dados = _context.Funcionario.ToList();
 
 
             }
@@ -175,7 +175,7 @@ namespace SIGP.Service
 
             try
             {
-                FuncionarioModel funcionario = _context.Funcionarios.AsNoTracking().FirstOrDefault(x => x.Id == editadoFuncionario.Id);
+                FuncionarioModel funcionario = _context.Funcionario.AsNoTracking().FirstOrDefault(x => x.Id == editadoFuncionario.Id);
 
                 if (funcionario == null)
                 {
@@ -187,10 +187,10 @@ namespace SIGP.Service
 
                 funcionario.DataDeAlteracao = DateTime.Now.ToLocalTime();
 
-                _context.Funcionarios.Update(editadoFuncionario);
+                _context.Funcionario.Update(editadoFuncionario);
                 await _context.SaveChangesAsync();
 
-                serviceResponse.Dados = _context.Funcionarios.ToList();
+                serviceResponse.Dados = _context.Funcionario.ToList();
 
             }
             catch (Exception ex)

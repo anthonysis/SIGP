@@ -15,6 +15,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IFuncionarioInterface, FuncionarioService>();
 builder.Services.AddScoped<IEnderecoInterface, EnderecoService>();
+builder.Services.AddScoped<ITelefoneInterface, TelefoneService>();
+builder.Services.AddScoped<IPessoaInterface, PessoaService>();
 
 IServiceCollection serviceCollection = builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {

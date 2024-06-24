@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SIGP.DataContext;
 
@@ -11,9 +12,11 @@ using SIGP.DataContext;
 namespace SIGP.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240624023757_pessoaEmFuncionario")]
+    partial class pessoaEmFuncionario
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -130,9 +133,6 @@ namespace SIGP.Migrations
                     b.Property<DateTime>("DataDeNascimento")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("EnderecoId")
-                        .HasColumnType("int");
-
                     b.Property<int>("EstadoCivil")
                         .HasColumnType("int");
 
@@ -153,14 +153,7 @@ namespace SIGP.Migrations
                     b.Property<string>("Sobrenome")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TelefoneId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("EnderecoId");
-
-                    b.HasIndex("TelefoneId");
 
                     b.ToTable("Pessoa");
                 });
@@ -199,25 +192,6 @@ namespace SIGP.Migrations
                         .IsRequired();
 
                     b.Navigation("Pessoa");
-                });
-
-            modelBuilder.Entity("SIGP.Models.PessoaModel", b =>
-                {
-                    b.HasOne("SIGP.Models.EnderecoModel", "Endereco")
-                        .WithMany()
-                        .HasForeignKey("EnderecoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("SIGP.Models.TelefoneModel", "Telefone")
-                        .WithMany()
-                        .HasForeignKey("TelefoneId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Endereco");
-
-                    b.Navigation("Telefone");
                 });
 #pragma warning restore 612, 618
         }

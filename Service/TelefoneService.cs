@@ -4,20 +4,20 @@ using SIGP.Models;
 
 namespace SIGP.Service
 {
-    public class EnderecoService : IEnderecoInterface
+    public class TelefoneService : ITelefoneInterface
     {
         private readonly ApplicationDbContext _context;
-        public EnderecoService(ApplicationDbContext context)
+        public TelefoneService(ApplicationDbContext context)
         {
             _context = context;
         }
-        public async Task<ServiceResponse<List<EnderecoModel>>> CreateEndereco(EnderecoModel novoEndereco)
+        public async Task<ServiceResponse<List<TelefoneModel>>> CreateTelefone(TelefoneModel novoTelefone)
         {
-            ServiceResponse<List<EnderecoModel>> serviceResponse = new ServiceResponse<List<EnderecoModel>>();
+            ServiceResponse<List<TelefoneModel>> serviceResponse = new ServiceResponse<List<TelefoneModel>>();
 
             try
             {
-                if (novoEndereco == null)
+                if (novoTelefone == null)
                 {
                     serviceResponse.Dados = null;
                     serviceResponse.Mensagem = "Informar dados!";
@@ -26,13 +26,13 @@ namespace SIGP.Service
                     return serviceResponse;
                 }
 
-                novoEndereco.DataDeCriacao = DateTime.Now.ToLocalTime();
-                novoEndereco.DataDeAlteracao = DateTime.Now.ToLocalTime();
+                novoTelefone.DataDeCriacao = DateTime.Now.ToLocalTime();
+                novoTelefone.DataDeAlteracao = DateTime.Now.ToLocalTime();
 
-                _context.Add(novoEndereco);
+                _context.Add(novoTelefone);
                 await _context.SaveChangesAsync();
 
-                serviceResponse.Dados = _context.Endereco.ToList();
+                serviceResponse.Dados = _context.Telefone.ToList();
 
             }
             catch (Exception ex)
@@ -44,28 +44,28 @@ namespace SIGP.Service
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<List<EnderecoModel>>> DeleteEndereco(int id)
+        public async Task<ServiceResponse<List<TelefoneModel>>> DeleteTelefone(int id)
         {
-            ServiceResponse<List<EnderecoModel>> serviceResponse = new ServiceResponse<List<EnderecoModel>>();
+            ServiceResponse<List<TelefoneModel>> serviceResponse = new ServiceResponse<List<TelefoneModel>>();
 
             try
             {
-                EnderecoModel endereco = _context.Endereco.FirstOrDefault(x => x.Id == id);
+                TelefoneModel endereco = _context.Telefone.FirstOrDefault(x => x.Id == id);
 
                 if (endereco == null)
                 {
                     serviceResponse.Dados = null;
-                    serviceResponse.Mensagem = "Endereço não localizado!";
+                    serviceResponse.Mensagem = "Telefone não localizado!";
                     serviceResponse.Sucesso = false;
 
                     return serviceResponse;
                 }
 
-                _context.Endereco.Remove(endereco);
+                _context.Telefone.Remove(endereco);
                 await _context.SaveChangesAsync();
 
 
-                serviceResponse.Dados = _context.Endereco.ToList();
+                serviceResponse.Dados = _context.Telefone.ToList();
 
             }
             catch (Exception ex)
@@ -77,18 +77,18 @@ namespace SIGP.Service
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<EnderecoModel>> GetEnderecoById(int id)
+        public async Task<ServiceResponse<TelefoneModel>> GetTelefoneById(int id)
         {
-            ServiceResponse<EnderecoModel> serviceResponse = new ServiceResponse<EnderecoModel>();
+            ServiceResponse<TelefoneModel> serviceResponse = new ServiceResponse<TelefoneModel>();
 
             try
             {
-                EnderecoModel endereco = _context.Endereco.FirstOrDefault(x => x.Id == id);
+                TelefoneModel endereco = _context.Telefone.FirstOrDefault(x => x.Id == id);
 
                 if (endereco == null)
                 {
                     serviceResponse.Dados = null;
-                    serviceResponse.Mensagem = "Usuário não localizado!";
+                    serviceResponse.Mensagem = "Telefone não localizado!";
                     serviceResponse.Sucesso = false;
                 }
 
@@ -105,14 +105,14 @@ namespace SIGP.Service
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<List<EnderecoModel>>> GetEnderecos()
+        public async Task<ServiceResponse<List<TelefoneModel>>> GetTelefones()
         {
-            ServiceResponse<List<EnderecoModel>> serviceResponse = new ServiceResponse<List<EnderecoModel>>();
+            ServiceResponse<List<TelefoneModel>> serviceResponse = new ServiceResponse<List<TelefoneModel>>();
 
             try
             {
 
-                serviceResponse.Dados = _context.Endereco.ToList();
+                serviceResponse.Dados = _context.Telefone.ToList();
 
                 if (serviceResponse.Dados.Count == 0)
                 {
@@ -131,28 +131,28 @@ namespace SIGP.Service
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<List<EnderecoModel>>> UpdateEndereco(EnderecoModel editadoEndereco)
+        public async Task<ServiceResponse<List<TelefoneModel>>> UpdateTelefone(TelefoneModel editadoTelefone)
         {
-            ServiceResponse<List<EnderecoModel>> serviceResponse = new ServiceResponse<List<EnderecoModel>>();
+            ServiceResponse<List<TelefoneModel>> serviceResponse = new ServiceResponse<List<TelefoneModel>>();
 
             try
             {
-                EnderecoModel endereco = _context.Endereco.AsNoTracking().FirstOrDefault(x => x.Id == editadoEndereco.Id);
+                TelefoneModel telefone = _context.Telefone.AsNoTracking().FirstOrDefault(x => x.Id == editadoTelefone.Id);
 
-                if (endereco == null)
+                if (telefone == null)
                 {
                     serviceResponse.Dados = null;
-                    serviceResponse.Mensagem = "Usuário não localizado!";
+                    serviceResponse.Mensagem = "Telefone não localizado!";
                     serviceResponse.Sucesso = false;
                 }
 
 
-                endereco.DataDeAlteracao = DateTime.Now.ToLocalTime();
+                telefone.DataDeAlteracao = DateTime.Now.ToLocalTime();
 
-                _context.Endereco.Update(editadoEndereco);
+                _context.Telefone.Update(editadoTelefone);
                 await _context.SaveChangesAsync();
 
-                serviceResponse.Dados = _context.Endereco.ToList();
+                serviceResponse.Dados = _context.Telefone.ToList();
 
             }
             catch (Exception ex)

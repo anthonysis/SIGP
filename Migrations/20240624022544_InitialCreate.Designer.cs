@@ -12,8 +12,8 @@ using SIGP.DataContext;
 namespace SIGP.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240623171327_secondMigration")]
-    partial class secondMigration
+    [Migration("20240624022544_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -65,7 +65,7 @@ namespace SIGP.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Enderecos");
+                    b.ToTable("Endereco");
                 });
 
             modelBuilder.Entity("SIGP.Models.FuncionarioModel", b =>
@@ -79,6 +79,9 @@ namespace SIGP.Migrations
                     b.Property<bool>("Ativo")
                         .HasColumnType("bit");
 
+                    b.Property<string>("Cargo")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("DataDeAlteracao")
                         .HasColumnType("datetime2");
 
@@ -88,10 +91,7 @@ namespace SIGP.Migrations
                     b.Property<int>("Departamento")
                         .HasColumnType("int");
 
-                    b.Property<string>("Nome")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Sobrenome")
+                    b.Property<string>("EmailCorporativo")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Turno")
@@ -99,7 +99,83 @@ namespace SIGP.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Funcionarios");
+                    b.ToTable("Funcionario");
+                });
+
+            modelBuilder.Entity("SIGP.Models.PessoaModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CidadeDeOrigem")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Cnh")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Cpf")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("DataDeAlteracao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataDeCriacao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataDeNascimento")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("EstadoCivil")
+                        .HasColumnType("int");
+
+                    b.Property<string>("EstadoDeOrigem")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Genero")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Rg")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Sobrenome")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Pessoa");
+                });
+
+            modelBuilder.Entity("SIGP.Models.TelefoneModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CodigoDeArea")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("DataDeAlteracao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataDeCriacao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Numero")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Telefone");
                 });
 #pragma warning restore 612, 618
         }

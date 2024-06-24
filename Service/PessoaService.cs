@@ -4,20 +4,20 @@ using SIGP.Models;
 
 namespace SIGP.Service
 {
-    public class EnderecoService : IEnderecoInterface
+    public class PessoaService : IPessoaInterface
     {
         private readonly ApplicationDbContext _context;
-        public EnderecoService(ApplicationDbContext context)
+        public PessoaService(ApplicationDbContext context)
         {
             _context = context;
         }
-        public async Task<ServiceResponse<List<EnderecoModel>>> CreateEndereco(EnderecoModel novoEndereco)
+        public async Task<ServiceResponse<List<PessoaModel>>> CreatePessoa(PessoaModel novoPessoa)
         {
-            ServiceResponse<List<EnderecoModel>> serviceResponse = new ServiceResponse<List<EnderecoModel>>();
+            ServiceResponse<List<PessoaModel>> serviceResponse = new ServiceResponse<List<PessoaModel>>();
 
             try
             {
-                if (novoEndereco == null)
+                if (novoPessoa == null)
                 {
                     serviceResponse.Dados = null;
                     serviceResponse.Mensagem = "Informar dados!";
@@ -26,13 +26,13 @@ namespace SIGP.Service
                     return serviceResponse;
                 }
 
-                novoEndereco.DataDeCriacao = DateTime.Now.ToLocalTime();
-                novoEndereco.DataDeAlteracao = DateTime.Now.ToLocalTime();
+                novoPessoa.DataDeCriacao = DateTime.Now.ToLocalTime();
+                novoPessoa.DataDeAlteracao = DateTime.Now.ToLocalTime();
 
-                _context.Add(novoEndereco);
+                _context.Add(novoPessoa);
                 await _context.SaveChangesAsync();
 
-                serviceResponse.Dados = _context.Endereco.ToList();
+                serviceResponse.Dados = _context.Pessoa.ToList();
 
             }
             catch (Exception ex)
@@ -44,28 +44,28 @@ namespace SIGP.Service
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<List<EnderecoModel>>> DeleteEndereco(int id)
+        public async Task<ServiceResponse<List<PessoaModel>>> DeletePessoa(int id)
         {
-            ServiceResponse<List<EnderecoModel>> serviceResponse = new ServiceResponse<List<EnderecoModel>>();
+            ServiceResponse<List<PessoaModel>> serviceResponse = new ServiceResponse<List<PessoaModel>>();
 
             try
             {
-                EnderecoModel endereco = _context.Endereco.FirstOrDefault(x => x.Id == id);
+                PessoaModel pessoa = _context.Pessoa.FirstOrDefault(x => x.Id == id);
 
-                if (endereco == null)
+                if (pessoa == null)
                 {
                     serviceResponse.Dados = null;
-                    serviceResponse.Mensagem = "Endereço não localizado!";
+                    serviceResponse.Mensagem = "Pessoa não localizada!";
                     serviceResponse.Sucesso = false;
 
                     return serviceResponse;
                 }
 
-                _context.Endereco.Remove(endereco);
+                _context.Pessoa.Remove(pessoa);
                 await _context.SaveChangesAsync();
 
 
-                serviceResponse.Dados = _context.Endereco.ToList();
+                serviceResponse.Dados = _context.Pessoa.ToList();
 
             }
             catch (Exception ex)
@@ -77,22 +77,22 @@ namespace SIGP.Service
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<EnderecoModel>> GetEnderecoById(int id)
+        public async Task<ServiceResponse<PessoaModel>> GetPessoaById(int id)
         {
-            ServiceResponse<EnderecoModel> serviceResponse = new ServiceResponse<EnderecoModel>();
+            ServiceResponse<PessoaModel> serviceResponse = new ServiceResponse<PessoaModel>();
 
             try
             {
-                EnderecoModel endereco = _context.Endereco.FirstOrDefault(x => x.Id == id);
+                PessoaModel pessoa = _context.Pessoa.FirstOrDefault(x => x.Id == id);
 
-                if (endereco == null)
+                if (pessoa == null)
                 {
                     serviceResponse.Dados = null;
-                    serviceResponse.Mensagem = "Usuário não localizado!";
+                    serviceResponse.Mensagem = "Pessoa não localizada!";
                     serviceResponse.Sucesso = false;
                 }
 
-                serviceResponse.Dados = endereco;
+                serviceResponse.Dados = pessoa;
 
             }
             catch (Exception ex)
@@ -105,14 +105,14 @@ namespace SIGP.Service
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<List<EnderecoModel>>> GetEnderecos()
+        public async Task<ServiceResponse<List<PessoaModel>>> GetPessoas()
         {
-            ServiceResponse<List<EnderecoModel>> serviceResponse = new ServiceResponse<List<EnderecoModel>>();
+            ServiceResponse<List<PessoaModel>> serviceResponse = new ServiceResponse<List<PessoaModel>>();
 
             try
             {
 
-                serviceResponse.Dados = _context.Endereco.ToList();
+                serviceResponse.Dados = _context.Pessoa.ToList();
 
                 if (serviceResponse.Dados.Count == 0)
                 {
@@ -131,28 +131,28 @@ namespace SIGP.Service
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<List<EnderecoModel>>> UpdateEndereco(EnderecoModel editadoEndereco)
+        public async Task<ServiceResponse<List<PessoaModel>>> UpdatePessoa(PessoaModel editadoPessoa)
         {
-            ServiceResponse<List<EnderecoModel>> serviceResponse = new ServiceResponse<List<EnderecoModel>>();
+            ServiceResponse<List<PessoaModel>> serviceResponse = new ServiceResponse<List<PessoaModel>>();
 
             try
             {
-                EnderecoModel endereco = _context.Endereco.AsNoTracking().FirstOrDefault(x => x.Id == editadoEndereco.Id);
+                PessoaModel pessoa = _context.Pessoa.AsNoTracking().FirstOrDefault(x => x.Id == editadoPessoa.Id);
 
-                if (endereco == null)
+                if (pessoa == null)
                 {
                     serviceResponse.Dados = null;
-                    serviceResponse.Mensagem = "Usuário não localizado!";
+                    serviceResponse.Mensagem = "Pessoa não localizada!";
                     serviceResponse.Sucesso = false;
                 }
 
 
-                endereco.DataDeAlteracao = DateTime.Now.ToLocalTime();
+                pessoa.DataDeAlteracao = DateTime.Now.ToLocalTime();
 
-                _context.Endereco.Update(editadoEndereco);
+                _context.Pessoa.Update(editadoPessoa);
                 await _context.SaveChangesAsync();
 
-                serviceResponse.Dados = _context.Endereco.ToList();
+                serviceResponse.Dados = _context.Pessoa.ToList();
 
             }
             catch (Exception ex)
