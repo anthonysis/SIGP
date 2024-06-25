@@ -1,5 +1,5 @@
 # SIGP
-Sistema De Gerenciamento de Pessoas
+Sistema De Gerenciamento de Pessoas apresentado como pré requisito para obtenção de nota da Disciplina de Tópicos em Programação III. Semestre 2024/1
 
 # Participantes
 Anthony Silveira / Débora Ribeiro
